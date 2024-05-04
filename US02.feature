@@ -1,6 +1,6 @@
-Feature: El arrendador completa sus datos de cuenta satisfactoriamente
+Feature: El arrendador se registra en la aplicación
 
-Scenario: El arrendador completa sus datos de registro satisfactoriamente
+Scenario: El arrendador completa sus datos de cuenta satisfactoriamente
     Given que el arrendador visualiza el formulario de registro
     When el arrendador llena todos los campos obligatorios correspondientes
     And el arrendador elige el tipo de usuario "Arrendador"
